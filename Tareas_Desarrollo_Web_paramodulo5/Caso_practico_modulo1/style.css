@@ -1,0 +1,20 @@
+header {
+    background-color: rgb(81, 84, 37);
+    color: rgb(106, 197, 200);
+    font-size: 58px;
+}
+
+#Articulo {
+    background-color: rgb(73, 151, 125);
+    color: #39535d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5%;
+
+}
+
+.Imagen {
+    padding: 0.5%;
+    height: 250px;
+    width: 500px;
+
+}

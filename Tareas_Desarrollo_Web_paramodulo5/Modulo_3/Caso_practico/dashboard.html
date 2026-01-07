@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema de Usuarios</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard">
+            <h1 id="welcomeMessage"></h1>
+            
+            <div class="user-info" id="userInfo"></div>
+            
+            <div class="buttons">
+                <button id="btnGet" class="btn-primary">Petición GET</button>
+                <button id="btnPost" class="btn-secondary">Petición POST</button>
+                <button id="btnLogout" class="btn-logout">Cerrar Sesión</button>
+            </div>
+            
+            <div id="apiResponse" class="api-response"></div>
+        </div>
+    </div>
+    <script src="./dashboard.js"></script>
+</body>
+</html>
